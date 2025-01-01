@@ -5,20 +5,6 @@ package main
 
 import "github.com/arthurmvo/profile"
 
-type Bio struct {
-	Name     string
-	Title    string
-	Company  string
-	Location string
-}
-
-type Skills struct {
-	Languages  []string
-	Frameworks []string
-	Databases  []string
-	Tools      []string
-}
-
 func main() {
 	bio := Bio{
 		Name:     "Arthur Martins",
